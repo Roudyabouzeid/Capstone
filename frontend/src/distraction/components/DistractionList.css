@@ -1,0 +1,73 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  background-color: #ccc;
+  padding-top: 6px;
+  column-gap: 0.5%;
+  padding-left: 1%;
+  row-gap: 0px;
+
+}
+.grid-item {
+  background-color: #fff;
+  border-left: 3px solid #2a006e;
+  border-bottom: 1.5px solid #2a006e;
+  border-top: 3px solid #2a006e;
+  border-right: 3px solid #2a006e;
+  padding: 0px;
+  font-size: 30px;
+  text-align: left;
+  color: #000;
+  
+}
+
+
+
+
+
+.tableFixHead {
+  margin-bottom: 1vh;
+  margin-left:2%;
+  margin-right:2%;
+  overflow-y: auto;
+  height: 45.5vh;
+}
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+table {
+ 
+  width: 100%;
+}
+
+th {
+  background: #2a006e;
+  padding: 10px;
+  border: 4px solid #2a006e;
+  font-size: larger;
+  color: #fff;
+}
+
+td{
+  padding-left: 14px;
+}
+
+
+.loc{
+  text-decoration: none;
+  color: red;
+
+  font-size: smaller;
+ 
+ 
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
